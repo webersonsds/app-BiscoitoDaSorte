@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+
+}
+
+.container {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    background-color: rgb(91, 89, 92);
+    border-radius: 20px;
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+}
+
+.quebrarBiscoito {
+    margin-top: 20px;
+    font-family: sans-serif;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(124, 126, 128);
+    border: none;
+}
+.frase{
+    text-align: center;
+}
+
+.novoBiscoito {
+    font-family: sans-serif;
+    margin-top: 20px;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(124, 126, 128);
+    border: none;
+}
+
+.quebrarBiscoito:hover {
+
+    background-color: rgb(94, 71, 41);
+    cursor: pointer;
+}
+
+.novoBiscoito:hover {
+
+    background-color: rgb(94, 71, 41);
+    cursor: pointer;
+}
+
+
+p {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
